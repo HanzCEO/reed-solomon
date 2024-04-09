@@ -32,7 +32,6 @@
   "homepage": "https://github.com/RayhanDiahPurwadi/reed-solomon#readme",
   "scripts": {
     "prepublishOnly": "rm -f binding.node",
-    "postinstall": "node-gyp rebuild",
     "test": "node test.js"
   },
   "devDependencies": {
