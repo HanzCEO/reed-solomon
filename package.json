@@ -35,7 +35,7 @@
     "postinstall": "node-gyp rebuild",
     "test": "node test.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "@ronomon/queue": "^3.0.1"
   }
 }
