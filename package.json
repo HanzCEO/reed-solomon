@@ -31,7 +31,7 @@
   "homepage": "https://github.com/ronomon/reed-solomon#readme",
   "scripts": {
     "prepublishOnly": "rm -f binding.node",
-    "postinstall": "node-gyp clean",
+    "postinstall": "node-gyp rebuild",
     "test": "node test.js"
   },
   "dependencies": {
