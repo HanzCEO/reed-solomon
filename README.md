@@ -11,9 +11,13 @@ For an introduction to erasure coding, see this post by Brian Beach on the
 * [Tests](#tests)
 * [Benchmark](#benchmark)
 
+## Changes on project fork
+ - [x] Removed `postinstall` npm script.
+ - [ ] Add typings.
+
 ## Installation
 ```
-npm install @ronomon/reed-solomon
+npm install @rayhandp/reed-solomon
 ```
 
 ## Performance
